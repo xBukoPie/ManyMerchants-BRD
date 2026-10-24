@@ -216,13 +216,13 @@ async function renderIndexPage() {
 if (typeof window !== 'undefined') {
   window.addEventListener('DOMContentLoaded', () => {
     modal.init();
-    // Render index/home page UI only if on index.html
-    if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || window.location.pathname === '/index.html') {
+    // Render index/home page UI only if on index.php
+    if (window.location.pathname.endsWith('index.php') || window.location.pathname === '/' || window.location.pathname === '/index.php') {
       renderIndexPage();
     } else {
-      // For products.html and info.html (non‑index pages) just load modal
-      // Optionally fetch and render products on products.html when not index
-      if (window.location.pathname.endsWith('products.html')) {
+      // For products.php and info.php (non‑index pages) just load modal
+      // Optionally fetch and render products on products.php when not index
+      if (window.location.pathname.endsWith('products.php')) {
         renderIndexPage(); // same rendering logic; could be factored later
       }
     }

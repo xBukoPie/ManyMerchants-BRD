@@ -8,9 +8,9 @@
 <body>
   <header>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="info.html">Info</a>
+      <a href="index.php">Home</a>
+      <a href="products.php">Products</a>
+      <a href="info.php">Info</a>
     </nav>
   </header>
 
