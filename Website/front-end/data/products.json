@@ -1,0 +1,34 @@
+[
+  {
+    "id": "p001",
+    "name": "Product A",
+    "price": 49.99,
+    "image": "assets/placeholder.jpg",
+    "onSale": true,
+    "description": "This is Product A, a premium item."
+  },
+  {
+    "id": "p002",
+    "name": "Product B",
+    "price": 29.95,
+    "image": "assets/placeholder.jpg",
+    "onSale": false,
+    "description": "This is Product B, great value."
+  },
+  {
+    "id": "p003",
+    "name": "Product C",
+    "price": 39.99,
+    "image": "assets/placeholder.jpg",
+    "onSale": true,
+    "description": "This is Product C, a bestseller."
+  },
+  {
+    "id": "p004",
+    "name": "Product D",
+    "price": 59.99,
+    "image": "assets/placeholder.jpg",
+    "onSale": false,
+    "description": "This is Product D, for power users."
+  }
+]
